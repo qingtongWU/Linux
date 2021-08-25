@@ -1,0 +1,6 @@
+1. 桌面和xshell直接进行文件传输(小文件)，大文件用winscp or git
+  $ sudo apt install lrzsz;
+  $ sz test.c  //发送到桌面
+  $ rz         //从桌面拉过来
+  
+  
