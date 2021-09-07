@@ -1,4 +1,4 @@
-#include "../include/head.h"
+#include "../include/func.h"
 
 int epollAddFd(int epfd, int fd)
 {
