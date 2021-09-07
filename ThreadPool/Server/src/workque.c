@@ -1,4 +1,4 @@
-#include "../include/head.h"
+#include "../include/func.h"
 #include "../include/workque.h"
 
 int queInit(pQue_t pQue)
