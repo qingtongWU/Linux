@@ -1,5 +1,4 @@
-#define _GNU_SOURCE
-#include "../include/head.h"
+#include "../include/func.h"
 #include "../include/threadPool.h"
 
 void sigFunc(int sigNum)
