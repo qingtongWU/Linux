@@ -1,4 +1,4 @@
-#include "../include/head.h"
+#include "../include/func.h"
 
 int tcpInit(char *ip, char *port, int *sockFd)
 {
