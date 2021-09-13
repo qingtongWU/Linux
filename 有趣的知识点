@@ -3,4 +3,15 @@
   $ sz test.c  //发送到桌面
   $ rz         //从桌面拉过来
   
-  
+2. 编译命令
+   a. gcc test.c -o test  //生成test可执行文件
+   b. gcc test.c -std=c99 //生成a.out可执行文件
+   c. 使用makefile
+
+3. 在.o文件中以16进制显示
+    打开.o文件，命令行输入   :%!xxd
+    回去二进制： :%!xxd -r
+    
+4.遍历字符串的时候string 下标访问可以用 s.at(i).
+
+
